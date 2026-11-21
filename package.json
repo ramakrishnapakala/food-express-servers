@@ -1,0 +1,25 @@
+{
+  "name": "food-express-server",
+  "version": "1.1.0",
+  "description": "A Node.js server that proxies the Swiggy API (fixing CORS) and exposes it to the Food Express React app.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ramakrishnapakala/Food-Express-Server.git"
+  },
+  "author": "Ramakrishna",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "cross-fetch": "^4.0.0",
+    "express": "^4.18.2"
+  }
+}
